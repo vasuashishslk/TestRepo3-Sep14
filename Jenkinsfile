@@ -28,7 +28,7 @@ pipeline {
               echo 'Depolying to prod 2 ...'
           }
         }
-        stage (Deploy to production 3'){
+        stage ('Deploy to production 3'){
             steps{
                  echo 'Depolying to prod 3 ..'
                }
